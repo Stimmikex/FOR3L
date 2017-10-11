@@ -1,0 +1,29 @@
+﻿
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch is up-to-date with 'origin/master'.
+#
+# Changes to be committed:
+#	modified:   FOR3L/.vs/FOR3L/v14/.suo
+#	modified:   FOR3L/Assembly-CSharp.csproj
+#	modified:   FOR3L/Assets/Scenes/intro.unity
+#	new file:   FOR3L/Assets/Scripts/level_manager.cs
+#	new file:   FOR3L/Assets/Scripts/level_manager.cs.meta
+#	modified:   FOR3L/Assets/Scripts/player_controller.cs
+#	modified:   FOR3L/Library/CurrentLayout.dwlt
+#	modified:   FOR3L/Library/assetDatabase3
+#
+# Changes not staged for commit:
+#	modified:   FOR3L/Library/ScriptAssemblies/Assembly-CSharp.dll
+#	modified:   FOR3L/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb
+#	modified:   FOR3L/Library/metadata/49/49bd2944964e7e641a637c92e315f2fe
+#	modified:   FOR3L/obj/Debug/Assembly-CSharp.csproj.FileListAbsolute.txt
+#	modified:   FOR3L/obj/Debug/Assembly-CSharp.dll
+#	modified:   FOR3L/obj/Debug/Assembly-CSharp.pdb
+#	modified:   FOR3L/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+#
+# Untracked files:
+#	FOR3L/Library/metadata/18/
+#
+

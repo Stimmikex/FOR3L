@@ -19,6 +19,8 @@ public class player_controller : MonoBehaviour {
 
     public Vector3 respawn_pos;
 
+    public level_manager the_level_manager;
+
 	// Use this for initialization
 	void Start ()
     {
@@ -26,6 +28,8 @@ public class player_controller : MonoBehaviour {
 		player_anim = GetComponent<Animator>();
 
         respawn_pos = transform.position;
+
+        the_level_manager = FindObjectOfType<level_manager>();
 	}
 	
 	// Update is called once per frame
@@ -63,7 +67,8 @@ public class player_controller : MonoBehaviour {
     {
         if (other.tag == "Kill_plane")
         {
-            transform.position = respawn_pos;
+            // transform.position = respawn_pos;
+            the_level_manager.Respawn();
         }
         if (other.tag == "Checkpoint")
         {
