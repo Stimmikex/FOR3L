@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Kill_plane
   - Checkpoint
+  - Moving_platform
   layers:
   - Default
   - TransparentFX

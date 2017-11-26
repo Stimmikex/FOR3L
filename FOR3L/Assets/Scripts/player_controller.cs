@@ -75,4 +75,20 @@ public class player_controller : MonoBehaviour {
             respawn_pos = other.transform.position;
         }
     }
+    /*Collides with the moving platoform*/
+    /*This will make the player a child of the moving platform and that will make the player follow the moving platform*/
+    void OnCollisionEnter2D(Collision2D other)
+    {
+        if (other.gameObject.tag == "Moving_platform")
+        {
+            transform.parent = other.transform;
+        }
+    }
+    void OnCollisionExit2D(Collision2D other)
+    {
+        if (other.gameObject.tag == "Moving_platform")
+        {
+            transform.parent = null;
+        }
+    }
 }
