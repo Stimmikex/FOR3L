@@ -23,7 +23,6 @@ public class Currency : MonoBehaviour {
         if (other.tag == "Player")
         {
             the_level_manager.add_currency(currency_value);
-
             /*This will destroy the coin then the player touches it*/
             Destroy(gameObject);
         }
