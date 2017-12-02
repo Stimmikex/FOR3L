@@ -1,8 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class end_menu : MonoBehaviour {
+
+    public string main_menu;
 
 	// Use this for initialization
 	void Start () {
@@ -16,6 +19,7 @@ public class end_menu : MonoBehaviour {
 
     public void quit_game()
     {
-        Application.Quit();
+        SceneManager.LoadScene(main_menu);
+        //Application.Quit();
     }
 }
