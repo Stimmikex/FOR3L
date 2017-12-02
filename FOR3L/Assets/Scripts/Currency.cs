@@ -20,8 +20,10 @@ public class Currency : MonoBehaviour {
     
     void OnTriggerEnter2D(Collider2D other)
     {
+        /*Checks if the other collides with the player*/
         if (other.tag == "Player")
         {
+            /*This will add the coins to the coin text*/
             the_level_manager.add_currency(currency_value);
             /*This will destroy the coin then the player touches it*/
             Destroy(gameObject);

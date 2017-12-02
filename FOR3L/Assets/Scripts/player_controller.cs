@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class player_controller : MonoBehaviour {
 	/*Movement speed*/
@@ -20,6 +21,9 @@ public class player_controller : MonoBehaviour {
     public Vector3 respawn_pos;
 
     public level_manager the_level_manager;
+
+    public string End;
+
 
 	// Use this for initialization
 	void Start ()
@@ -70,9 +74,15 @@ public class player_controller : MonoBehaviour {
             // transform.position = respawn_pos;
             the_level_manager.Respawn();
         }
+
         if (other.tag == "Checkpoint")
         {
             respawn_pos = other.transform.position;
+        }
+
+        if (other.tag == "End")
+        {
+            SceneManager.LoadScene(End);
         }
     }
     /*Collides with the moving platoform*/
@@ -91,4 +101,6 @@ public class player_controller : MonoBehaviour {
             transform.parent = null;
         }
     }
+
+
 }

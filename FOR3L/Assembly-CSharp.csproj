@@ -55,10 +55,12 @@
      <Compile Include="Assets\Scripts\checkpoint_controller.cs" />
      <Compile Include="Assets\Scripts\Currency.cs" />
      <Compile Include="Assets\Scripts\destroy_overtime.cs" />
+     <Compile Include="Assets\Scripts\end_menu.cs" />
      <Compile Include="Assets\Scripts\Health.cs" />
      <Compile Include="Assets\Scripts\level_manager.cs" />
      <Compile Include="Assets\Scripts\main_menu.cs" />
      <Compile Include="Assets\Scripts\moving_object.cs" />
+     <Compile Include="Assets\Scripts\pause_menu.cs" />
      <Compile Include="Assets\Scripts\player_controller.cs" />
      <Compile Include="Assets\Scripts\spider_controller.cs" />
  <Reference Include="UnityEngine.UI">
