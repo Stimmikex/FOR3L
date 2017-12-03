@@ -17,3 +17,11 @@ Most of the work load has been spent learning how to use unity.
 # Problems
 ##### 12/11/2017
 I have had some problems regarding the played death function that i have created.
+##### 29/11/2017
+Working on the movement of enemies and the intro scene.
+##### 01/12/2017
+Added the main menu for the game and fixed some bugs that I was trying to fix
+##### 02/12/2017
+Added The end menu/screen and connected it to the main menu/screen.
+##### 03/12/2017
+Have completed most of the game.
